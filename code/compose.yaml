@@ -1,0 +1,17 @@
+services:
+  tsc:
+    image: tsc
+    container_name: tsc
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    volumes:
+      - .:/code
+    # Run interactive
+    stdin_open: true
+    tty: true
+
+networks:
+  default:
+    external: false
+    name: docker-internal

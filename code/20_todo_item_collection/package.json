@@ -1,0 +1,22 @@
+{
+    "name": "02_todo_iterm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.ts",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+        "inquirer": "^12.5.0",
+        "@types/inquirer": "^9.0.7",
+        "jest": "^29.7.0",
+        "@types/jest": "^29.5.14",
+        "ts-jest": "^29.3.1",
+        "just": "^0.1.8",
+        "lowdb": "^7.0.1"
+    }
+}

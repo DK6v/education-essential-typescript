@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "target": "ES2015",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "module": "Node16",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": true,
+        "declaration": true,
+    },
+    "include": [
+        "src/**/*",
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
